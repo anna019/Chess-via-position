@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html, body{
+	height: 100%;
+}
+
+.chess{
+	width: 456px;
+	height: 456px;
+	background-color: #EFD1AB;
+	padding: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #000;
+}
+
+.chess__board{
+	height: 100%;
+	border: 2px solid #000;
+	background-image: linear-gradient( 45deg,black 25%, transparent 25%, transparent 74%, black 75%, black), 
+	linear-gradient( 45deg,black 25%, transparent 25%, transparent 74%, black 75%, black);
+	background-size: 100px 100px;
+	background-position: 0 0, 50px 50px;
+	position: relative;
+}
+
+.chess__item{
+	width: 45px;
+    height: 45px;
+    margin: 1px;
+    border-radius: 50%;
+    position: absolute;
+   
+}
+
+.chess__item--red{
+	background-color: red;
+}
+
+.chess__item--while{
+	background-color: #fff;
+}
+
+
+
+
+/* position */
+
+
+
+.a1{
+	bottom: 0;
+	left: 0;
+}
+.c1{
+	bottom: 0;
+	left: 101px;
+}
+.e1{
+	bottom: 0;
+	left: 201px;
+}
+.g1{
+	bottom: 0;
+	right: 50px;
+}
+
+.b2{
+	bottom: 51px;
+	left: 51px;
+}
+.d2{
+	bottom: 51px;
+	left:  151px;
+}
+.f2{
+	bottom: 51px;
+	left:  251px;
+}
+.h2{
+	bottom: 51px;
+	right: 0 ;
+}
+
+.a3{
+	bottom: 100px;
+	left: 0;
+}
+.c3{
+	bottom: 100px;
+	left: 101px;
+}
+.e3{
+	bottom: 100px;
+	left: 201px;
+}
+.g3{
+	bottom: 100px;
+	right: 51px;
+}
+
+.b4{}
+.d4{}
+.f4{}
+.h4{}
+
+
+.a5{}
+.c5{}
+.e5{}
+.g5{}
+
+
+.b6{
+	top: 101px;
+	left: 51px;
+}
+.d6{
+	top: 101px;
+	left: 151px;
+}
+.f6{
+	top: 101px;
+	left: 251px;
+}
+.h6{
+	top: 101px;
+	right: 0px;
+}
+
+
+.a7{
+	top: 51px;
+	left: 0px;
+}
+.c7{
+	top: 51px;
+	left: 101px;
+}
+.e7{
+	top: 51px;
+	left: 201px;
+}
+.g7{
+	top: 51px;
+	right: 51px;
+}
+
+.b8{
+	top: 0;
+	left: 51px;
+}
+.d8{
+	top: 0;
+	left: 151px;
+}
+.f8{
+	top: 0;
+	left: 251px;
+}
+.h8{
+	top: 0;
+	right: 0	;
+}
+
+
